@@ -1,5 +1,5 @@
 import Groq from "groq-sdk";
-import { SYSTEM_PROMPT } from "./prompt.js";
+import { SYSTEM_PROMPT } from "./prompt";
 
 export interface SummarizeResponse {
   summary: string;

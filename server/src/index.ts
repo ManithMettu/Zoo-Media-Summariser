@@ -1,8 +1,8 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import { validateText } from "./validate.js";
-import { summarize } from "./llm.js";
+import { validateText } from "./validate";
+import { summarize } from "./llm";
 
 dotenv.config();
 
